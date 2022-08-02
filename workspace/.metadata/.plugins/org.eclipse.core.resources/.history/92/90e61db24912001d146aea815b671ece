@@ -1,0 +1,9 @@
+public class Class802{    //定义类
+	public Class802(){    //构造函数
+		System.out.println(" 正在学习中 ");           //只要调用函数就会输出“正在学习中”
+	}
+	public static void main(String [] args) {     //主函数
+		Class802 ferrari = new Class802();        //创建一个802实例并分配给ferrari
+		System.out.println(ferrari);              //因为变量是被声明为应用数据类型，不是原始数据类型，所以输出ferrari的内存地址
+	}
+}

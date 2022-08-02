@@ -1,0 +1,14 @@
+public class Dog1{
+  private String name;
+ 
+  //Other methods and constructors
+ 
+  public void setName(String newName) {
+    name = newName;
+  }
+ 
+  public static void main(String[] args){
+    Dog myDog = new Dog("Cujo");
+    myDog.setName("Lassie");
+  }
+}
